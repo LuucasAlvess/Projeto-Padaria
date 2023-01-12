@@ -1,0 +1,345 @@
+*{
+    padding: 0;
+    margin: 0;
+    vertical-align: baseline;
+    font-family: Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+}
+
+body{
+    background-color: #F5F5F5;
+}
+
+#titulo {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    text-align: center;
+    font-size: xxx-large;
+}
+
+.menu {
+    display: flex;
+    list-style: none;
+}
+
+
+
+.menu li{
+    margin-right: 15px;
+    margin-left: 5px;
+}
+
+.menu a {
+    font-size: 20px;
+}
+
+.imagem img {
+    height: 134px;
+}
+
+.balcao{
+    height: 600px;
+    width: 100%;
+    background-image: url(image/294652-guia-de-investimentos-em-padaria-veja-regras-para-boas-aquisicoes-1024x683.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 40px 0;
+    color: white;
+    box-shadow:inset 6px 6px 13px 1px rgba(0, 0, 0, 0.37);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.form-filter-content {
+    display: flex;
+    justify-content: center;
+    width: 550px;
+    height: 41px;
+    margin-left: 27%;
+    margin-right: 35%;
+    border: 2px solid #841347;
+    background-color: #841347;
+    border-radius: 5px;
+    margin-top: -45px;
+}
+
+.form-filter-content input{
+    width: 537px;
+    height: 40px;
+    border-radius: 5px;
+    padding-left: 11px;
+    font-size: 1rem;
+    border: none;
+}
+
+.form-filter-content button[type="submit"] {
+    background-color: #181920;
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    border: none;
+    border-radius: 5px;
+    padding: 0.7rem 1.5rem;
+    margin-right: -117px;
+    margin-left: 4px;
+}
+
+header{
+    background-color: #841347;
+    color: rgb(255, 255, 255);
+    height: 130px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+header a{
+    color: white;
+    text-decoration: none;
+}
+
+section{
+    padding-top: 43rem;
+    background-color: #F5F5F5;
+}
+
+.sobre-nos img {
+    margin-top: -159px;
+    width: 90vh;
+    height: 80vh;
+    border-radius: 40px;
+}
+
+.sobre-nos h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 900px;
+    margin-top: -567px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 34px;
+}
+
+#main1 p {
+    line-height: 32px;
+    display: flex;
+    margin-top: -550px;
+    margin-left: 1080px;
+    font-size: 19px;
+    margin-right: 65px;
+    text-align: justify;
+}
+/* margin-top: 21px ;
+margin-right: 645px;
+text-align: justify;
+margin-left: 41px;
+font-size: 20px; */
+
+#main1 button{
+    background-color: #841347;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    border: none;
+    border-radius: 8px;
+    padding: 0.7rem 1.3rem;
+    margin-left: 70%;
+    margin-top: 50px;
+}
+
+#main1 button a{
+        color: white;
+        text-decoration: none; 
+}
+
+#foto {
+    padding-left: 800px;
+}
+
+.entregas img{
+    margin-top: 100px;
+    margin-bottom: 121px;
+    background-color: #F5F5F5;
+    padding: 21px;
+    max-width: 500px;
+    margin-left: 48rem;
+    display: block;
+    border-radius: 20px;
+}
+
+.entregas h1 {
+    justify-content: space-between;
+    text-align: center;
+    margin-top: 300px;
+    margin-left: -110vh;
+    margin-bottom: 121px;
+    
+}
+
+.entregas p {
+    margin-top: -200px;
+    margin-right: 130vh;
+    text-align: justify;
+    margin-left: 20vh;
+    font-size: 19px;
+    display: flex;
+    /* padding: 100px;
+    text-align: justify;
+    justify-content:right;
+    margin-left: 610px;
+    
+    font-size: 14px; */
+}
+
+.agenda img {
+    padding-top: 135px;
+}
+
+.agenda h1{
+    display: flex;
+    margin-left: 745px;
+    flex-direction: column-reverse;
+    align-items: center;
+    margin-top: -390px;
+    margin-bottom: 213px;
+}
+
+.agenda p {
+    display: flex;
+    margin-top: -155px;
+    margin-left: 101vh;
+    font-size: 22px;
+    margin-right: 1%;
+    text-align: justify;
+}
+
+           /*  produtos */
+
+#oferta {
+    color: #841347;
+    text-align: center;
+    padding-top: 35px;
+    margin-bottom: 40px;
+}
+
+.list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.list img {
+    width: 210px;
+    padding-top: 15px;
+}
+
+
+.list a {
+    text-decoration: none;
+    list-style: none;
+}
+
+.list h5 {
+    color: #000;
+    font-size: 1rem;
+}
+
+.list p, .list span {
+    color: #6b6b6b;
+    font-size: 13px;
+    margin-left: 12px;
+    width: 100%;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.product-list-item-pão-francês, .product-list-item-bolo-churros {
+    position: relative;
+    font-size: 15px;
+    text-align: center;
+    width: 20%;
+    margin: 0%;
+    margin-right: 0%;
+    display: inline-block;
+    background-color: #fff;
+    margin-top: 0px;
+    padding: 0px 20px;
+    margin-bottom: 70px;
+}
+
+.product-list-item-pão-francês img {
+    width: 205px;
+    height: 120px;
+}
+
+.product-list-item-bolo-churros img {
+    width: 205px;
+    height: 120px;
+    
+}
+
+.product-list-item {
+    position: relative;
+    font-size: 15px;
+    text-align: center;
+    width: 20%;
+    margin: 0%;
+    margin-right: 0%;
+    display: inline-block;
+    background-color: #fff;
+    margin-top: 0px;
+    padding: 0px 20px;
+    margin-bottom: 70px;
+    
+}
+
+.product-list-item img {
+    justify-items: center;
+    align-items: center;
+    margin-left: 9px;
+    width: 205px;
+    height: 120px;
+}
+
+.produtos-botao{
+    background-color: #841347;
+    font-size: 15px;
+    border: none;
+    border-radius: 20px;
+    padding: 0.5rem 1.2rem;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.produtos-botao a {
+    color: white;
+    font-size: 15px;  
+}
+
+footer {
+    margin-top: 300px;
+    background-color: #841347;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+footer a {
+    color: white;
+}
+
+.footer1{
+    margin-top: 150px;
+    background-color: #841347;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
